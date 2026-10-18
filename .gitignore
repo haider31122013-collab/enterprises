@@ -1,0 +1,31 @@
+# PHP Session Cache
+sessions/
+
+# Temporary / Outdated Backup Directories
+.freebuff/
+admin_panel_backup/
+backend/
+payemt gateway detils/
+
+# Local Debug & One-off Setup Scripts
+create_admin_account.php
+debug_login.php
+final_fix_admin.php
+fix_db.php
+reset_admin.php
+setup_admin.php
+test_admin_access.php
+router_debug.php
+test_runner.php
+TODO.md
+
+# OS & Editor Files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+*.tmp
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace

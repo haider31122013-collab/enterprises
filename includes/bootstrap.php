@@ -21,7 +21,11 @@ if (session_status() !== PHP_SESSION_ACTIVE) {
 
 const APP_NAME = 'Resource Enterprises';
 
-if (file_exists(__DIR__ . '/config.local.php')) {
+$isLocalEnv = ($_SERVER['REMOTE_ADDR'] ?? '') === '127.0.0.1' 
+    || ($_SERVER['REMOTE_ADDR'] ?? '') === '::1' 
+    || in_array(strtolower(explode(':', $_SERVER['HTTP_HOST'] ?? '')[0]), ['localhost', '127.0.0.1'], true);
+
+if ($isLocalEnv && file_exists(__DIR__ . '/config.local.php')) {
     require_once __DIR__ . '/config.local.php';
 } else {
     require_once __DIR__ . '/config.php';

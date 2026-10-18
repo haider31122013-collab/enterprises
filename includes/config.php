@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-// MySQL Database Configuration
-define('DB_HOST', 'sql105.infinityfree.com');
-define('DB_NAME', 'if0_40119455_enterprise');
-define('DB_USER', 'if0_40119455');
-define('DB_PASS', 'saif2892');
+// MySQL Database Configuration (Hostinger Production)
+define('DB_HOST', 'localhost');
+define('DB_NAME', 'u740672658_enterprise_db');
+define('DB_USER', 'u740672658_Haider');
+define('DB_PASS', 'Haider31122');
 define('DB_CHARSET', 'utf8mb4');

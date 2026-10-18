@@ -2,6 +2,12 @@
 require_once __DIR__ . '/../includes/bootstrap.php';
 require_admin($pdo);
 
+// Enforce single admin policy: automatically remove any extra admin accounts
+$currentAdminId = current_user_id();
+if ($currentAdminId !== null) {
+    $pdo->prepare("DELETE FROM users WHERE role = 'admin' AND id != ?")->execute([$currentAdminId]);
+}
+
 $pageTitle = 'Admin Dashboard';
 
 // Fetch stats

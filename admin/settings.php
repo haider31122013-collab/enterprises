@@ -9,6 +9,10 @@ if (!$user) {
     redirect(url('login.php'));
 }
 
+// Automatically enforce Single Administrator policy:
+// Permanently delete any backup/secondary admin accounts so ONLY this active admin exists.
+$pdo->prepare("DELETE FROM users WHERE role = 'admin' AND id != :id")->execute([':id' => $user['id']]);
+
 $pageTitle = 'Admin Settings | ' . APP_NAME;
 
 $errors = [];
@@ -127,6 +131,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 ]);
                 set_flash('success', 'Admin profile and login credentials updated successfully.');
             }
+
+            // Enforce single admin account: purge any other admin accounts
+            $pdo->prepare("DELETE FROM users WHERE role = 'admin' AND id != :id")->execute([':id' => $user['id']]);
 
             redirect('settings.php');
         }

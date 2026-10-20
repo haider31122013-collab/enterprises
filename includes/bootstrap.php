@@ -21,7 +21,8 @@ if (session_status() !== PHP_SESSION_ACTIVE) {
 
 const APP_NAME = 'Resource Enterprises';
 
-$isLocalEnv = ($_SERVER['REMOTE_ADDR'] ?? '') === '127.0.0.1' 
+$isLocalEnv = PHP_SAPI === 'cli'
+    || ($_SERVER['REMOTE_ADDR'] ?? '') === '127.0.0.1' 
     || ($_SERVER['REMOTE_ADDR'] ?? '') === '::1' 
     || in_array(strtolower(explode(':', $_SERVER['HTTP_HOST'] ?? '')[0]), ['localhost', '127.0.0.1'], true);
 

@@ -1,4 +1,4 @@
--- Resource Enterprises - MySQL/MariaDB schema
+-- Resources Enterprises - MySQL/MariaDB schema
 --
 -- This file matches the schema the PHP app actually queries:
 --   users.full_name + users.password_hash + users.role  -> signup.php / login.php / require_admin()
@@ -225,7 +225,7 @@ CREATE TABLE IF NOT EXISTS contact_messages (
 INSERT INTO users (full_name, email, password_hash, phone, address, role, created_at)
 SELECT s.full_name, s.email, s.password_hash, s.phone, s.address, s.role, NOW()
 FROM (
-    SELECT 'Administrator' AS full_name, 'admin@resource.com' AS email, '$2y$10$00Qb/XhRh.J6ooXaofaYiO/1vlhyKKwRhvr8k97XbYEI.sYrdwp3O' AS password_hash, '+92 300 1234567' AS phone, 'Head Office - Resource Enterprises' AS address, 'admin' AS role
+    SELECT 'Administrator' AS full_name, 'admin@resource.com' AS email, '$2y$10$00Qb/XhRh.J6ooXaofaYiO/1vlhyKKwRhvr8k97XbYEI.sYrdwp3O' AS password_hash, '+92 300 1234567' AS phone, 'Head Office - Resources Enterprises' AS address, 'admin' AS role
     UNION ALL
     SELECT 'Test Customer', 'customer@test.com', '$2y$10$00Qb/XhRh.J6ooXaofaYiO/1vlhyKKwRhvr8k97XbYEI.sYrdwp3O', '+92 321 9876543', 'House 123, Model Town', 'user'
 ) AS s

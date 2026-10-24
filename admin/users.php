@@ -1,6 +1,6 @@
 <?php
 declare(strict_types=1);
-// Resource Enterprises - User Management & Deletion Engine v1.1
+// Resources Enterprises - User Management & Deletion Engine v1.1
 
 require_once __DIR__ . '/../includes/bootstrap.php';
 require_admin($pdo);

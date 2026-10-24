@@ -19,7 +19,7 @@ if (session_status() !== PHP_SESSION_ACTIVE) {
     session_start();
 }
 
-const APP_NAME = 'Resource Enterprises';
+const APP_NAME = 'Resources Enterprises';
 
 $isLocalEnv = PHP_SAPI === 'cli'
     || ($_SERVER['REMOTE_ADDR'] ?? '') === '127.0.0.1' 

@@ -4,7 +4,7 @@ declare(strict_types=1);
 require_once __DIR__ . '/includes/bootstrap.php';
 
 $pageTitle = 'Products | ' . APP_NAME;
-$pageDescription = 'Browse all products from Resource Enterprises ecommerce store.';
+$pageDescription = 'Browse all products from Resources Enterprises ecommerce store.';
 
 $search = trim((string) ($_GET['q'] ?? ''));
 $category = trim((string) ($_GET['category'] ?? ''));

@@ -233,7 +233,7 @@ include __DIR__ . '/../includes/header.php';
 
           <div class="form-group">
             <label>Meta Title <small id="metaTitleCount" style="color:var(--muted);font-weight:500;">(0-70 chars recommended)</small></label>
-            <input type="text" name="meta_title" id="metaTitleInput" class="input" maxlength="255" value="<?= $editProduct['meta_title'] ?? '' ?>" placeholder="Product Name | Category - Resource Enterprises" oninput="countChars('metaTitleInput','metaTitleCount',70)">
+            <input type="text" name="meta_title" id="metaTitleInput" class="input" maxlength="255" value="<?= $editProduct['meta_title'] ?? '' ?>" placeholder="Product Name | Category - Resources Enterprises" oninput="countChars('metaTitleInput','metaTitleCount',70)">
           </div>
 
           <div class="form-group">
@@ -447,7 +447,7 @@ function autoFillSEO(nameInput) {
     
     if (metaTitleInput && metaTitleInput.value === '') {
         const cat = document.getElementById('adminCategory').value || '';
-        metaTitleInput.value = name + (cat ? ' | ' + cat : '') + ' - Resource Enterprises';
+        metaTitleInput.value = name + (cat ? ' | ' + cat : '') + ' - Resources Enterprises';
         countChars('metaTitleInput', 'metaTitleCount', 70);
     }
     if (metaDescInput && metaDescInput.value === '') {

@@ -39,8 +39,8 @@
   <footer class="site-footer">
 
     <div class="footer-header">
-      <h2>Resource Enterprises</h2>
-      <p class="brand-description">Resource Enterprises is a premier manufacturing and export powerhouse based in Wazirabad and Lahore, Pakistan. We specialize in delivering world-class craftsmanship in cutlery, kitchenware, salt artisans, and engineering parts to global markets. Our commitment to quality and innovation ensures that we provide solutions for good, bridging the gap between traditional artistry and modern industrial excellence.</p>
+      <h2>Resources Enterprises</h2>
+      <p class="brand-description">Resources Enterprises is a premier manufacturing and export powerhouse based in Wazirabad and Lahore, Pakistan. We specialize in delivering world-class craftsmanship in cutlery, kitchenware, salt artisans, and engineering parts to global markets. Our commitment to quality and innovation ensures that we provide solutions for good, bridging the gap between traditional artistry and modern industrial excellence.</p>
       <div class="header-line"></div>
     </div>
 
@@ -121,7 +121,7 @@
     </div>
 
     <div class="footer-copyright">
-      Resource Enterprises &copy; 2023 All rights reserved
+      Resources Enterprises &copy; <?= date('Y') ?> All rights reserved
     </div>
   </footer>
   <?php endif; ?>

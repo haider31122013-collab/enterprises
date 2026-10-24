@@ -1,4 +1,4 @@
-# Resource Enterprises - E-Commerce & Wholesale Platform
+# Resources Enterprises - E-Commerce & Wholesale Platform
 
 A full-featured, luxury e-commerce platform and B2B wholesale store built with PHP, MySQL, vanilla JavaScript, and CSS. Includes a comprehensive administrator suite, multi-currency engine, dynamic payment gateway manager, order lifecycle management, and customer storefront.
 
@@ -105,4 +105,4 @@ Credentials can be customized anytime from **Admin Panel -> Settings**.
 ---
 
 ## 📄 License
-Proprietary - Developed for Resource Enterprises.
+Proprietary - Developed for Resources Enterprises.

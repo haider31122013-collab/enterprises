@@ -4,7 +4,7 @@ declare(strict_types=1);
 require_once __DIR__ . '/includes/bootstrap.php';
 
 $pageTitle = 'Privacy Policy | ' . APP_NAME;
-$pageDescription = 'Learn how Resource Enterprises collects, uses, and protects your personal information.';
+$pageDescription = 'Learn how Resources Enterprises collects, uses, and protects your personal information.';
 
 include __DIR__ . '/includes/header.php';
 ?>
@@ -21,7 +21,7 @@ include __DIR__ . '/includes/header.php';
 
     <div class="policy-section fade" style="margin-bottom: 60px;">
       <p class="policy-effective">Effective Date: January 1, 2025</p>
-      <p class="policy-intro">Resource Enterprises respects your privacy and is committed to protecting your personal data. This Privacy Policy explains how we collect, use, and protect your information.</p>
+      <p class="policy-intro">Resources Enterprises respects your privacy and is committed to protecting your personal data. This Privacy Policy explains how we collect, use, and protect your information.</p>
     </div>
 
     <div class="policy-section fade">
@@ -112,7 +112,7 @@ include __DIR__ . '/includes/header.php';
 
     <div class="policy-section fade" style="background: var(--bg-soft); padding: 40px; border-radius: 20px; border: 1px dashed #D2ADA1;">
       <h3>9. Contact Us</h3>
-      <p><strong>Resource Enterprises</strong></p>
+      <p><strong>Resources Enterprises</strong></p>
       <p style="margin-top: 20px;">
         <span style="color: #5D100B; font-weight: 800;">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">

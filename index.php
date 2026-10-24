@@ -31,7 +31,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
     }
 }
 
-$pageTitle = 'Resource Enterprises | Ecommerce Store';
+$pageTitle = 'Resources Enterprises | Ecommerce Store';
 $pageDescription = 'Premium ecommerce store for cutlery, footwear, salt artisans, and ceramics.';
 
 $featuredProducts = $pdo
@@ -42,7 +42,7 @@ include __DIR__ . '/includes/header.php';
 ?>
 <section id="hero" class="section hero">
   <div class="section-inner fade">
-    <h1>RESOURCE ENTERPRISES</h1>
+    <h1>RESOURCES ENTERPRISES</h1>
     <p>Solutions for good</p>
     <a href="products.php" class="cta-btn">Shop now</a>
   </div>
@@ -53,7 +53,7 @@ include __DIR__ . '/includes/header.php';
     <div class="copy">
       <p class="eyebrow">Who We Are</p>
       <h2>Who We Are</h2>
-      <p>Resource Enterprises delivers premium products across industries, combining craftsmanship, innovation, and reliability for global markets. We are your trusted partner in manufacturing and export.</p>
+      <p>Resources Enterprises delivers premium products across industries, combining craftsmanship, innovation, and reliability for global markets. We are your trusted partner in manufacturing and export.</p>
     </div>
     <figure class="media">
       <img src="https://images.unsplash.com/photo-1631556764629-b51c3ae40d18?auto=format&fit=crop&w=1400&q=80" alt="Woman researcher working in a modern manufacturing laboratory environment">

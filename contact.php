@@ -4,7 +4,7 @@ declare(strict_types=1);
 require_once __DIR__ . '/includes/bootstrap.php';
 
 $pageTitle = 'Contact Us | ' . APP_NAME;
-$pageDescription = 'Reach Resource Enterprises for ecommerce support and bulk inquiries.';
+$pageDescription = 'Reach Resources Enterprises for ecommerce support and bulk inquiries.';
 
 $user = current_user($pdo);
 $productNames = $pdo->query('SELECT name FROM products WHERE active = 1 ORDER BY name')->fetchAll(PDO::FETCH_COLUMN);
@@ -63,7 +63,7 @@ include __DIR__ . '/includes/header.php';
 <section class="page-hero fade">
   <div class="section-inner">
     <p class="eyebrow">Support</p>
-    <h2>Contact Resource Enterprises</h2>
+    <h2>Contact Resources Enterprises</h2>
     <p>For product guidance, order follow-up, and bulk inquiries, send us a message.</p>
   </div>
 </section>

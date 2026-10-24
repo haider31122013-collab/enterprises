@@ -42,7 +42,7 @@ if ($orders !== []) {
 }
 
 $pageTitle = 'My Orders | ' . APP_NAME;
-$pageDescription = 'View all orders you placed on Resource Enterprises ecommerce store.';
+$pageDescription = 'View all orders you placed on Resources Enterprises ecommerce store.';
 
 include __DIR__ . '/includes/header.php';
 ?>

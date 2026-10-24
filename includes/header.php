@@ -4,11 +4,11 @@ if (!isset($pageTitle) || $pageTitle === '') {
 }
 
 if (!isset($pageDescription) || $pageDescription === '') {
-    $pageDescription = 'Resource Enterprises ecommerce store for premium cutlery, footwear, salt artisans and ceramics. Export quality wholesale products for retail, hotels, and B2B businesses.';
+    $pageDescription = 'Resources Enterprises ecommerce store for premium cutlery, footwear, salt artisans and ceramics. Export quality wholesale products for retail, hotels, and B2B businesses.';
 }
 
 if (!isset($pageKeywords) || $pageKeywords === '') {
-    $pageKeywords = 'resource enterprises, premium cutlery, wholesale footwear, himalayan salt, ceramics, export quality, b2b supplier, pakistan export';
+    $pageKeywords = 'resources enterprises, premium cutlery, wholesale footwear, himalayan salt, ceramics, export quality, b2b supplier, pakistan export';
 }
 
 if (!isset($pageImage) || $pageImage === '') {
@@ -30,7 +30,7 @@ $pageUrl = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https://' 
   <title><?= h($pageTitle) ?></title>
   <meta name="description" content="<?= h($pageDescription) ?>">
   <meta name="keywords" content="<?= h($pageKeywords) ?>">
-  <meta name="author" content="Resource Enterprises">
+  <meta name="author" content="Resources Enterprises">
   <meta name="robots" content="index, follow">
 
   <!-- Open Graph / Facebook -->
@@ -66,7 +66,7 @@ $pageUrl = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https://' 
     "sku": <?= json_encode((string)($product['sku'] ?? '')) ?>,
     "brand": {
       "@type": "Brand",
-      "name": "Resource Enterprises"
+      "name": "Resources Enterprises"
     },
     "offers": {
       "@type": "Offer",
@@ -93,8 +93,8 @@ $pageUrl = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https://' 
     </div>
 
     <div class="logo-wrap">
-      <a href="<?= url('index.php') ?>" class="logo" aria-label="Resource Enterprises homepage">
-        <img src="<?= url('logo/logo.png') ?>" alt="Resource Enterprises Logo" class="main-logo">
+      <a href="<?= url('index.php') ?>" class="logo" aria-label="Resources Enterprises homepage">
+        <img src="<?= url('logo/logo.png') ?>" alt="Resources Enterprises Logo" class="main-logo">
       </a>
     </div>
 

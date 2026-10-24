@@ -4,7 +4,7 @@ declare(strict_types=1);
 require_once __DIR__ . '/includes/bootstrap.php';
 
 $pageTitle = 'Refund & Return Policy | ' . APP_NAME;
-$pageDescription = 'Read Resource Enterprises refund and return policy for a smooth shopping experience.';
+$pageDescription = 'Read Resources Enterprises refund and return policy for a smooth shopping experience.';
 
 include __DIR__ . '/includes/header.php';
 ?>
@@ -88,7 +88,7 @@ include __DIR__ . '/includes/header.php';
 
     <div class="policy-section fade">
       <h3>7. Important Note</h3>
-      <p>Resource Enterprises is not responsible for:</p>
+      <p>Resources Enterprises is not responsible for:</p>
       <ul>
         <li>Delays caused by courier services</li>
         <li>Loss of returned packages (use trackable shipping)</li>
@@ -102,7 +102,7 @@ include __DIR__ . '/includes/header.php';
 
     <div class="policy-section fade" style="background: var(--bg-soft); padding: 40px; border-radius: 20px; border: 1px dashed #D2ADA1;">
       <h3>9. Contact Us</h3>
-      <p><strong>Resource Enterprises</strong></p>
+      <p><strong>Resources Enterprises</strong></p>
       <p style="margin-top: 20px;">
         <span style="color: #5D100B; font-weight: 800;">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">

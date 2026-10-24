@@ -4,14 +4,14 @@ declare(strict_types=1);
 require_once __DIR__ . '/includes/bootstrap.php';
 
 $pageTitle = 'About Us | ' . APP_NAME;
-$pageDescription = 'Learn about Resource Enterprises - our story, vision, mission, and core values.';
+$pageDescription = 'Learn about Resources Enterprises - our story, vision, mission, and core values.';
 
 include __DIR__ . '/includes/header.php';
 ?>
 <section class="page-hero fade">
   <div class="section-inner">
     <p class="eyebrow">Our Story</p>
-    <h2>About Resource Enterprises</h2>
+    <h2>About Resources Enterprises</h2>
     <p>Bridging tradition and innovation since day one.</p>
   </div>
 </section>
@@ -24,7 +24,7 @@ include __DIR__ . '/includes/header.php';
         <h2>Vision Statement</h2>
       </div>
       <div class="about-content">
-        <p>To become a globally recognized enterrpise that transforms everyday living through innovative, high-quality products while representing Pakistan’s excellence on the international stage.</p>
+        <p>To become a globally recognized enterprise that transforms everyday living through innovative, high-quality products while representing Pakistan’s excellence on the international stage.</p>
       </div>
     </article>
 
@@ -34,7 +34,7 @@ include __DIR__ . '/includes/header.php';
         <h2>Mission Statement</h2>
       </div>
       <div class="about-content">
-        <p>At Resource Enterprises, we deliver diverse, high-quality products across multiple categories including kitchenware, lifestyle goods, engineering solutions, and more. We serve modern consumers and businesses by combining functionality, design, and affordability. Through innovation, strong digital presence, and design thinking, we aim to simplify lives, empower industries, and build long-term trust in every transaction.</p>
+        <p>At Resources Enterprises, we deliver diverse, high-quality products across multiple categories including kitchenware, lifestyle goods, engineering solutions, and more. We serve modern consumers and businesses by combining functionality, design, and affordability. Through innovation, strong digital presence, and design thinking, we aim to simplify lives, empower industries, and build long-term trust in every transaction.</p>
       </div>
     </article>
 
